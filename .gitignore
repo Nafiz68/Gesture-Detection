@@ -1,0 +1,24 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Local environment and editor files
+.env
+.vscode/
+.idea/
+
+# Dataset and generated artifacts
+dataset/
+output/
+
+# Trained and downloaded model assets
+model/*.pkl
+model/*.task
+
+# OS files
+.DS_Store
+Thumbs.db
